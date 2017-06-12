@@ -65,6 +65,7 @@ Note:
 * Phillipines provide free 512kbps public wifi to get more people online
 
 
+
 ## Webpage size
 * The average website is now 2.9Mb - 3Mb this year?
 * Think about how much needs to be downloaded to render. How much to be functional
@@ -76,6 +77,7 @@ Note:
 * It grew over 2Mb in 2015
 * That is 3.314 seconds to download the average page on the average connection
 * More than 5.8 seconds for 69% of internet users in the Phillipines
+
 
 
 ## Latency
@@ -147,8 +149,8 @@ Note:
 ## Proxy Browsers
 * Not just a relic from the past
 * Great for poor internet connections
-	* Websites are proxied on an intermediary server for faster retrieval
-	* Some perform optimisations on webpages to reduce loading time
+	* Websites are cached on an intermediary server
+	* Render and optimise on webpages to reduce loading time
 	* This can mean pages render differently and have unexpected performance
 	* Regularly changing content is not well suited to proxy browsers
 
@@ -164,7 +166,17 @@ Note:
 * Huge usage in China, India and Indonesia
 * Pages can be cached and out of date
 * Loading new content can be slower due to the two steps between the client and proxy, and proxy and server
-a
+
+
+## Limitations
+* Javascript can be cut to improve performance
+* CSS may not render properly
+* Limited animation
+
+Note:
+* Opera mini can throttle javascript after a few seconds to improve performance
+
+
 
 
 ## Solutions
@@ -178,6 +190,14 @@ a
 Note:
 * Progressive web apps are smaler, have wider support and can still be installed like an app with a manifest
 * Service workers can be used to prefetch cache to reduce loading time and to work offline. But it is important not to prefetch anything that is not absolutely required
+* Proxy browsers may mean you don't have working javascript - if this is a concern treat javascript as an enhancement
+* Don't require javascript on load
+
+
+## Tools
+* Throttling on Chrome
+* Server side rendering
+
 
 
 ## References

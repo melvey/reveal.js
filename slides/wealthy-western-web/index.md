@@ -1,12 +1,20 @@
 # The World Wide Web not the Wealthy Western Web
 
+
+
 ## Introduction
 
+
+
 ### A personal anecdote
+
+
 
 ### The state of the internet
 * 1.1 Billion people have access to a broadband network
 * 3.2 Billion internet users
+
+
 
 ### The developing world
 
@@ -22,6 +30,8 @@
 [World Development Report](http://www.worldbank.org/en/publication/wdr2016)
 [PEW Global Internet Usage Annual Survey](http://www.pewglobal.org/2016/02/22/smartphone-ownership-and-internet-usage-continues-to-climb-in-emerging-economies/)
 
+
+
 ### Australia
 * 37% of remote and regional Australians feel they have good internet access
 * 48% report poor access
@@ -29,6 +39,8 @@
 * But only 37% use their phone for internet
 [UC Study finds Australians feeling good but lack connections](https://www.canberra.edu.au/about-uc/media/media-releases/2016/june/uc-study-finds-regional-australians-feeling-good,-but-lack-connections)
 [Better access to high speed broadband for rural and remote health care](https://www.canberra.edu.au/about-uc/media/media-releases/2016/june/uc-study-finds-regional-australians-feeling-good,-but-lack-connections)
+
+
 
 ## Connection Speeds
 * Plenty of reporting on average speeds
@@ -42,6 +54,8 @@
 [Acamai state of the internet report 2016](https://www.akamai.com/us/en/multimedia/documents/state-of-the-internet/q4-2016-state-of-the-internet-connectivity-report.pdf)
 [freepublicwifi.gov.ph](http://freepublicwifi.gov.ph/)A
 
+
+
 ## Webpage size
 * Average website grew over 1Mb in 2012
 * It grew over 2Mb in 2015
@@ -51,6 +65,7 @@
 * Think about how much needs to be downloaded to render. How much to be functional
 
 [HTTP Archive - Interesting stats](http://www.httparchive.org/interesting.php?a=All&l=May%2015%202017)
+
 
 
 ## Latency
@@ -67,6 +82,8 @@
 * Reduce restful requests
 * Ensure there is enough data to use in the initial page load
 	* Ok to load extra data later - but make sure the page works without it
+
+
 
 ## Devices
 We're used to designing for mobile but it is worth remembering that a lot of people don't have the types of premium phones we're used to
@@ -87,6 +104,8 @@ We're used to designing for mobile but it is worth remembering that a lot of peo
 [W3Counter global web stats](https://www.w3counter.com/globalstats.php)
 [Worldwide screen resolution stats](http://gs.statcounter.com/screen-resolution-stats)
 
+
+
 ## Cost
 * Internet costs vary wildly around the world
 * A 2500kb site costs
@@ -101,6 +120,8 @@ We're used to designing for mobile but it is worth remembering that a lot of peo
 [The cost of internet around the world](https://valme.io/c/technology/vkqqs/the-cost-to-connect-internet-prices-around-the-world)
 [Price rankings by country](https://www.numbeo.com/cost-of-living/country_price_rankings?itemId=33)
 [The cost to connect](https://valme.io/c/technology/vkqqs/the-cost-to-connect-internet-prices-around-the-world)
+
+
 
 ## Proxy Browsers
 * Not just a relic from the past
@@ -134,6 +155,7 @@ We're used to designing for mobile but it is worth remembering that a lot of peo
 * Send all data you *need* in initial request
 	* Ok to load data from the server later - but the page should work without it
 * Keep an eye on ads - They can get *big*
+
 
 
 ## References

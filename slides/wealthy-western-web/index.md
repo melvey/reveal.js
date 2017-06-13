@@ -1,7 +1,5 @@
 # The World Wide Web not the Wealthy Western Web
 
-## Introduction
-
 ### A personal anecdote
 
 ### The state of the internet
@@ -14,6 +12,16 @@
 * Between 31% (world bank) and 54% (PEW) of people in the developing world have internet access
 * Mobiles phones are the main form of internet access
 * Uptake rapidly increasing
+
+
+[alt text](https://upload.wikimedia.org/wikipedia/commons/8/80/Asia_%28orthographic_projection%29.svg "Map of Asia")
+[World Population](http://www.worldometers.info/world-population/)
+
+Note:
+* Over 4 billion people live in Asia
+* Over half the global population
+* Right on our doorstep
+
 
 * Zero rating addresses costs - for services that can afford it
 	* Net neutrality advocates oppose zero rating

@@ -1,3 +1,9 @@
 .reveal h1 {
 	2em;
 }
+
+.reveal img {
+	border: none;
+	background: none;
+}
+

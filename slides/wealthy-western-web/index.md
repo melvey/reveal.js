@@ -131,14 +131,8 @@ Note:
 ## Devices
 * Phone markets differ around the world
 * Smart phones are increasing in popularity but smaller, cheaper phones dominate the emerging markets
-* gstats report screen size of 360x640 is the most popular (19.78%) of all traffic they see
-	* Indonesia (18.33%), India (19.07%) China (23.93%) and Kenya (9.16%) are consistant with this
-	* 1366x768 is just the most popular in Australia (10.93%) and Brazil (28.56%)
-	* The smaller resolutions are not going anywhere
 
 [W3Counter global web stats](https://www.w3counter.com/globalstats.php)
-
-[Worldwide screen resolution stats](http://gs.statcounter.com/screen-resolution-stats)
 
 Note:
 * We're used to designing for mobile but it is worth remembering that a lot of people don't have the types of premium phones we're used to
@@ -146,6 +140,16 @@ Note:
 	* only 52.3% in Australia
 	* Higher in price sensitive markets. 97% in India
 * Huawei, Oppo and Vivo took 24% of global smartphone sales last quarter
+
+# Devices cont...
+* gstats report screen size of 360x640 is the most popular (19.78%) of all traffic they see
+	* Indonesia (18.33%), India (19.07%) China (23.93%) and Kenya (9.16%) are consistant with this
+	* 1366x768 is the most popular in Australia (10.93%) and Brazil (28.56%)
+	* The smaller resolutions are not going anywhere
+
+[Worldwide screen resolution stats](http://gs.statcounter.com/screen-resolution-stats)
+
+Note:
 * Many users have phones with much smaller resolutions than those you likely use for testing
 	* I couldn't find data on this but they may not have as reliable sensor data as the devices you are used to either
 	* Also may not support faster mobile networks

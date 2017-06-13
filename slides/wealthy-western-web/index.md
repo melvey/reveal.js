@@ -15,7 +15,20 @@
 
 ### The state of the internet
 * 1.1 Billion people have access to a broadband network
-* 3.2 Billion internet users
+* 3.5 Billion internet users at the end of 2016
+* 5 Billion own mobile phones
+
+[The state of broadband 2016](http://broadbandcommission.org/Documents/reports/bb-annualreport2016.pdf)
+
+Note:
+* World bank claims 1.1 Billion people have access to high speed internet
+	* Fixed line DSL, cable, fibre or 4G/LTE
+* ITU estimated 3.5 Billion internet users at the end of 2016
+* Internet access
+	* Only 31% in developing countries
+	* 80% in high income countries
+* Move evenly spread than income
+* Largest number of internet users: China - US - India - Japan - Brazo;
 
 
 
@@ -62,7 +75,6 @@ Note:
 
 
 ## Connection Speeds
-* Plenty of reporting on average speeds
 * Global average connection speed is 7Mbps
 * 26% yearly growth
 * But growth is extremly variable
@@ -71,9 +83,10 @@ Note:
 
 [Acamai state of the internet report 2016](https://www.akamai.com/us/en/multimedia/documents/state-of-the-internet/q4-2016-state-of-the-internet-connectivity-report.pdf)
 
-[freepublicwifi.gov.ph](http://freepublicwifi.gov.ph/)A
+[freepublicwifi.gov.ph](http://freepublicwifi.gov.ph/)
 
 Note:
+* Plenty of reporting on average speeds
 * But growth is extremly variable (Vietnam saw 115% while Phillipies saw 44%)
 * Average connection speed can be deceptive - in q4 2016 Phillipines was 4.5Mbps but only 31% of the population have access to 4Mbps or above
 * Phillipines provide free 512kbps public wifi to get more people online
@@ -219,8 +232,6 @@ Note:
 [page load times in different countries](https://discussion.dreamhost.com/thread-130711.html)
 
 [performance and network segmentation on android](https://code.facebook.com/posts/952628711437136/classes-performance-and-network-segmentation-on-android/)
-
-[The state of broadband 2015](http://www.broadbandcommission.org/Documents/reports/bb-annualreport2015.pdf)
 
 [IDG](http://www.itu.int/en/Pages/default.aspx)
 

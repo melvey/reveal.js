@@ -33,7 +33,7 @@
 
 ### The developing world contd...
 
-[alt text](https://upload.wikimedia.org/wikipedia/commons/8/80/Asia_%28orthographic_projection%29.svg "Map of Asia")
+![Map of Asia](https://upload.wikimedia.org/wikipedia/commons/8/80/Asia_%28orthographic_projection%29.svg)
 [World Population](http://www.worldometers.info/world-population/)
 
 Note:

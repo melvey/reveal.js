@@ -1,11 +1,14 @@
 # The World Wide Web not the Wealthy Western Web
 
+<<<<<<< HEAD
 
 
 ## Introduction
 
 
 
+=======
+>>>>>>> slides
 ### A personal anecdote
 
 
@@ -26,6 +29,17 @@
 [World Development Report](http://www.worldbank.org/en/publication/wdr2016)
 
 [PEW Global Internet Usage Annual Survey](http://www.pewglobal.org/2016/02/22/smartphone-ownership-and-internet-usage-continues-to-climb-in-emerging-economies/)
+
+
+### The developing world contd...
+
+[alt text](https://upload.wikimedia.org/wikipedia/commons/8/80/Asia_%28orthographic_projection%29.svg "Map of Asia")
+[World Population](http://www.worldometers.info/world-population/)
+
+Note:
+* Over 4 billion people live in Asia
+* Over half the global population
+* Right on our doorstep
 
 
 ### The developing world contd...
@@ -205,6 +219,8 @@ Note:
 [page load times in different countries](https://discussion.dreamhost.com/thread-130711.html)
 
 [performance and network segmentation on android](https://code.facebook.com/posts/952628711437136/classes-performance-and-network-segmentation-on-android/)
+
 [The state of broadband 2015](http://www.broadbandcommission.org/Documents/reports/bb-annualreport2015.pdf)
+
 [IDG](http://www.itu.int/en/Pages/default.aspx)
 

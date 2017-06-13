@@ -6,8 +6,12 @@
 	font-size: 1.3em;
 }
 
-.reveal img {
+.reveal section img {
 	border: none;
 	background: none;
+}
+
+.reveal a {
+	font-size: 0.8em;
 }
 

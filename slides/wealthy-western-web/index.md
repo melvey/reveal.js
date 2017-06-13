@@ -1,14 +1,14 @@
 # The World Wide Web not the Wealthy Western Web
-
-<<<<<<< HEAD
-
-
-## Introduction
+## Darwin Web Standards June 2017
 
 
 
-=======
->>>>>>> slides
+### Thanks
+* Dash Media
+* Charles Darwin University
+
+
+
 ### A personal anecdote
 
 

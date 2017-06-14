@@ -1,4 +1,4 @@
-# The World Wide Web not the Wealthy Western Web
+# Not the Wealthy Western Web
 
 ## Darwin Web Standards June 2017
 

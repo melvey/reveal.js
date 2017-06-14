@@ -142,6 +142,7 @@ Note:
 	* Higher in price sensitive markets. 97% in India
 * Huawei, Oppo and Vivo took 24% of global smartphone sales last quarter
 
+
 # Devices cont...
 * gstats report screen size of 360x640 is the most popular (19.78%) of all traffic they see
 	* Indonesia (18.33%), India (19.07%) China (23.93%) and Kenya (9.16%) are consistant with this

@@ -18,6 +18,10 @@
 * 1.1 Billion people have access to a broadband network
 * 3.5 Billion internet users at the end of 2016
 * 5 Billion own mobile phones
+<div class="chart-container chart-small">
+	<div id="global-users"></div>
+	<div id="global-broadband"></div>
+</div>
 
 [The state of broadband 2016](http://broadbandcommission.org/Documents/reports/bb-annualreport2016.pdf)
 
@@ -94,6 +98,14 @@ Note:
 
 
 
+## Connection Speeds cont...
+<div class="chart-container chart-speed">
+	<div id="speed-chart-avg"></div>
+	<div id="speed-chart-low"></div>
+</div>
+
+
+
 ## Webpage size
 * The average website is now 2.9Mb - 3Mb this year?
 * Think about how much needs to be downloaded to render. How much to be functional
@@ -166,7 +178,7 @@ Note:
 	* $0.04 USD in Australia
 	* $0.02 USD in the Phillipines
 	* $0.01 USD in India and Indonesia
-* Cheaper is not always cheaper
+* Lower cost is not always cheaper
 	* Economic differences mean a lower cost is still expensive for locals on lower incomes
 
 [What does my site cost?](https://whatdoesmysitecost.com/)

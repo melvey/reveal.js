@@ -11,7 +11,7 @@
 
 
 
-### A personal anecdote
+### Using the internet in the developing world
 ![Warnet users](http://warnetbitnet.com/wp-content/uploads/2013/12/warnet_bitnet5_1.jpg)
 
 
@@ -252,7 +252,7 @@ Note:
 * Keep an eye on ads - They can get *big*
 
 Note:
-* Progressive web apps are smaler, have wider support and can still be installed like an app with a manifest
+* Progressive web apps are smaller, have wider support and can still be installed like an app with a manifest
 * Service workers can be used to prefetch cache to reduce loading time and to work offline. But it is important not to prefetch anything that is not absolutely required
 * Proxy browsers may mean you don't have working javascript - if this is a concern treat javascript as an enhancement
 * Don't require javascript on load

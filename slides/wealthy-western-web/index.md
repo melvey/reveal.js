@@ -1,6 +1,7 @@
 # Not the Wealthy Western Web
 
 ## Darwin Web Standards June 2017
+![Tin can internet](http://cdn.makeuseof.com/wp-content/uploads/2015/03/Tin-Can-VoIP.jpg?x92042)
 
 
 
@@ -11,7 +12,7 @@
 
 
 ### A personal anecdote
-
+![Warnet users](http://warnetbitnet.com/wp-content/uploads/2013/12/warnet_bitnet5_1.jpg)
 
 
 ### The state of the internet
@@ -39,17 +40,26 @@ Note:
 
 ### The developing world
 
+![Yogi on phone](http://www.w3.org/2006/11/mwiparis_digitaldivide/indianmonk.jpg)
+
+Note:
 * 8 in 10 people in the developing world have a mobile phone
 * Between 31% (world bank) and 54% (PEW) of people in the developing world have internet access
 * Mobiles phones are the main form of internet access
-* Uptake rapidly increasing
+* Mobile use increasing
+
+
+### The developing world.
+* 8 in 10 people in the developing world have a mobile phone
+* Between 31% (world bank) and 54% (PEW) of people in the developing world have internet access
+* Mobiles phones are the main form of internet access
 
 [World Development Report](http://www.worldbank.org/en/publication/wdr2016)
 
 [PEW Global Internet Usage Annual Survey](http://www.pewglobal.org/2016/02/22/smartphone-ownership-and-internet-usage-continues-to-climb-in-emerging-economies/)
 
 
-### The developing world contd...
+### The developing world.
 
 ![Map of Asia](https://upload.wikimedia.org/wikipedia/commons/8/80/Asia_%28orthographic_projection%29.svg)
 [World Population](http://www.worldometers.info/world-population/)
@@ -60,11 +70,16 @@ Note:
 * Right on our doorstep
 
 
-### The developing world contd...
+### The developing world.
 * Zero rating addresses costs - for services that can afford it
 	* Net neutrality advocates oppose zero rating
 	* India banned zero rated services last year
 
+
+
+### Australia
+
+![Broken Internet](https://edge.alluremedia.com.au/m/g/2015/05/shutterstock_164650286_1080.jpg)
 
 
 ### Australia
@@ -77,6 +92,11 @@ Note:
 
 [Better access to high speed broadband for rural and remote health care](https://www.canberra.edu.au/about-uc/media/media-releases/2016/june/uc-study-finds-regional-australians-feeling-good,-but-lack-connections)
 
+
+
+## Connection Speeds
+
+![Slow internet ahead](https://www.all4women.co.za/wp-content/uploads/2016/01/28/Slow-internet-647x395.jpg)
 
 
 ## Connection Speeds
@@ -97,8 +117,7 @@ Note:
 * Phillipines provide free 512kbps public wifi to get more people online
 
 
-
-## Connection Speeds cont...
+## Connection Speeds
 <div class="chart-container chart-speed">
 	<div id="speed-chart-avg"></div>
 	<div id="speed-chart-low"></div>
@@ -155,7 +174,7 @@ Note:
 * Huawei, Oppo and Vivo took 24% of global smartphone sales last quarter
 
 
-# Devices cont...
+# Devices
 * gstats report screen size of 360x640 is the most popular (19.78%) of all traffic they see
 	* Indonesia (18.33%), India (19.07%) China (23.93%) and Kenya (9.16%) are consistant with this
 	* 1366x768 is the most popular in Australia (10.93%) and Brazil (28.56%)
@@ -197,7 +216,7 @@ Note:
 	* Websites are cached on an intermediary server
 	* Render and optimise on webpages to reduce loading time
 	* This can mean pages render differently and have unexpected performance
-	* Regularly changing content is not well suited to proxy browsers
+	* Regularly changing is not well suited to proxy browsers
 
 [GS Stats Counter](http://gs.statcounter.com/)
 
@@ -210,7 +229,7 @@ Note:
 * Opera Mini 2.8%
 * Huge usage in China, India and Indonesia
 * Pages can be cached and out of date
-* Loading new content can be slower due to the two steps between the client and proxy, and proxy and server
+* Loading new can be slower due to the two steps between the client and proxy, and proxy and server
 
 
 ## Limitations

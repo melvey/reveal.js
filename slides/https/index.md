@@ -1,11 +1,11 @@
+<!-- .slide: data-background-image="images/lego-568042_1280.jpg" -->
 # HTTPS
 ## What is HTTP and why does it matter
-![Legoman breaking in](images/lego-568042_1280.jpg)
 
 
 
 ### HTTP
-![Binoculars](images/binoculars-1209011_1280.jpg)
+<!-- .slide: data-background-image="images/binoculars-1209011_1280.jpg" -->
 
 Note:
 * Traffic is sent from the user to the server in plaintext
@@ -14,6 +14,7 @@ Note:
 * This includes usernames and passwords
 
 
+<!-- .slide: data-background-image="images/binoculars-1209011_1280.jpg" -->
 ![HTTP traffic](images/http_traffic.png)
 
 
@@ -28,8 +29,8 @@ Note:
 
 
 
+<!-- .slide: data-background-image="images/secret-3037639_1280.jpg" -->
 ### What is encryption
-![Top secret letter](images/secret-3037639_1280.jpg)
 
 Note:
 * Uses SSL (secure socket layer) or TLS (Transport Layer Security)
@@ -78,8 +79,8 @@ Note:
 
 
 
+<!-- .slide: data-background-image="images/toy-37513_1280.png" -->
 ### HTTPS Errors
-![Shocked lego face](images/toy-37513_1280.png)
 
 Note:
 * Common errors include
@@ -89,8 +90,8 @@ Note:
 
 
 
+<!-- .slide: data-background-image="images/lego-1044891_1280.jpg" -->
 ### Do I need HTTPS for *everything*?
-![Lego crowd](images/lego-1044891_1280.jpg)
 
 Note:
 * To provide privacy everything needs to be secure
@@ -101,6 +102,6 @@ Note:
 
 
 
+<!-- .slide: data-background-image="images/hand-plastic-finger-macro-yellow-closeup-281276-pxhere.com.jpg" -->
 ### Questions
-![Lego hand up](images/hand-plastic-finger-macro-yellow-closeup-281276-pxhere.com.jpg)
 

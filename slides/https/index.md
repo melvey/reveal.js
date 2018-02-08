@@ -20,12 +20,14 @@ Note:
 
 
 ### HTTPS
-![HTTPS traffic](images/https_traffic.png)
 
 Note:
 * Traffic is encrypted
 * Nobody except the user and the server can read what is sent and received
 * important for both privacy and security
+
+
+![HTTPS traffic](images/https_traffic.png)
 
 
 

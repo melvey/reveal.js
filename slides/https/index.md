@@ -79,7 +79,7 @@ Note:
 
 
 
-<!-- .slide: data-background-image="images/toy-37513_1280.png" -->
+<!-- .slide: data-background-image="https://media.giphy.com/media/l3q2y0UyD0OOMchAA/giphy.gif" -->
 ### HTTPS Errors
 
 Note:

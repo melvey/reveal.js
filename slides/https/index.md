@@ -60,6 +60,7 @@ Note:
 
 
 
+<!-- .slide: data-background-image="images/green-bricks.jpg" -->
 ### What's the deal with the green bar?
 ![Extended Validation notice](images/ev_certifcate.png)
 
@@ -71,6 +72,7 @@ Note:
 
 
 
+<!-- .slide: data-background-image="images/mixed-blocks.jpg" -->
 ### Mixed Content
 
 Note:
@@ -92,7 +94,7 @@ Note:
 
 
 
-<!-- .slide: data-background-image="images/lego-1044891_1280.jpg" -->
+<!-- .slide: data-background-image="images/Law-Enforcement-Policeman-Lego-Police-1058422.jpg" -->
 ### Do I need HTTPS for *everything*?
 
 Note:
@@ -107,3 +109,9 @@ Note:
 <!-- .slide: data-background-image="images/hand-plastic-finger-macro-yellow-closeup-281276-pxhere.com.jpg" -->
 ### Questions
 
+
+
+<!-- .slide: data-background-image="images/lego-1044891_1280.jpg" -->
+### Thanks
+https://www.flickr.com/photos/avlxyz/35435817803
+http://maxpixel.freegreatpicture.com/Law-Enforcement-Policeman-Lego-Police-1058422

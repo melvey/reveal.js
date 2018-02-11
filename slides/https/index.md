@@ -4,8 +4,9 @@
 
 
 
-### HTTP
 <!-- .slide: data-background-image="images/binoculars-1209011_1280.jpg" -->
+### HTTP
+![HTTP traffic](images/http_traffic.png)
 
 Note:
 * Traffic is sent from the user to the server in plaintext
@@ -14,20 +15,14 @@ Note:
 * This includes usernames and passwords
 
 
-<!-- .slide: data-background-image="images/binoculars-1209011_1280.jpg" -->
-![HTTP traffic](images/http_traffic.png)
-
-
 
 ### HTTPS
+![HTTPS traffic](images/https_traffic.png)
 
 Note:
 * Traffic is encrypted
 * Nobody except the user and the server can read what is sent and received
 * important for both privacy and security
-
-
-![HTTPS traffic](images/https_traffic.png)
 
 
 
@@ -45,6 +40,7 @@ Note:
 
 
 
+<!-- .slide: data-background-image="images/lego-keys.png" -->
 ### HTTPS Certificates
 
 Note:

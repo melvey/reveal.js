@@ -1,7 +1,7 @@
 # PiNet
-A remote intranet platform using Raspberry Pi
+## A remote intranet platform using Raspberry Pi
 
-## Darwin Web Standards Obtober 2017
+## Darwin Web Standards October 2017
 
 
 

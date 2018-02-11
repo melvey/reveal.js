@@ -15,6 +15,7 @@
 ![Warnet users](http://warnetbitnet.com/wp-content/uploads/2013/12/warnet_bitnet5_1.jpg)
 
 
+
 ### The state of the internet
 * 1.1 Billion people have access to a broadband network
 * 3.5 Billion internet users at the end of 2016
@@ -232,13 +233,18 @@ Note:
 * Loading new can be slower due to the two steps between the client and proxy, and proxy and server
 
 
-## Limitations
+## Proxy Browser Limitations
 * Javascript can be cut to improve performance
 * CSS may not render properly
 * Limited animation
 
 Note:
 * Opera mini can throttle javascript after a few seconds to improve performance
+
+
+## Proxy Browsers
+![ucbrowser screen](uc-screen.png)
+![opera mini screen](opera-screen.png)
 
 
 

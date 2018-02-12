@@ -83,8 +83,9 @@ Note:
 
 <!-- .slide: data-background-image="images/mixed-blocks.jpg" -->
 ### Mixed Content
+![HTTP traffic](images/ssl-mixed-content.png) <!-- .element: class="fragment" data-fragment-index="1" -->
 
-<span class="attribution fragment">
+<span class="attribution">
 <a href="https://www.flickr.com/photos/avlxyz/35435817803" target="_blank">"Green 2x2 brick in a sea of orange 4x2 Lego bricks"</a> by <a href="https://www.flickr.com/photos/avlxyz/" target="_blank">Alpha</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0" target="_blank">CC BY-NC 4.0</a>
 </span>
 

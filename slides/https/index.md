@@ -2,11 +2,19 @@
 # HTTPS
 ## What is HTTP and why does it matter
 
+<span class="attribution">
+<a href="https://pixabay.com/en/lego-males-axe-toys-legomaennchen-568042/" target="_blank">"Lego axe"</a> by <a href="https://pixabay.com/en/users/blickpixel-52945/" target="_blank">blickpixel</a> is in the <a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Public Domain, CC0</a>
+</span>
 
 
-<!-- .slide: data-background-image="images/binoculars-1209011_1280.jpg" -->
+
+<!-- .slide: data-background-image="images/lego-postman.jpg" -->
 ### HTTP
-![HTTP traffic](images/http_traffic.png)
+![HTTP traffic](images/http_traffic.png) <!-- .element: class="fragment" data-fragment-index="1" -->
+
+<span class="attribution">
+<a href="https://www.flickr.com/photos/stavos52093/12361203415" target="_blank">"Post Officer"</a> by <a href="https://www.flickr.com/photos/stavos52093/" target="_blank"> stavos</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank">CC BY-NC-ND 4.0</a>
+</span>
 
 Note:
 * Traffic is sent from the user to the server in plaintext
@@ -16,8 +24,13 @@ Note:
 
 
 
+<!-- .slide: data-background-image="images/lego-guarded.jpg" -->
 ### HTTPS
-![HTTPS traffic](images/https_traffic.png)
+![HTTPS traffic](images/https_traffic.png) <!-- .element: class="fragment" data-fragment-index="1" -->
+
+<span class="attribution">
+<a href="https://www.flickr.com/photos/stavos52093/12383314604/in/photostream/" target="_blank">"Special delivery"</a> by <a href="https://www.flickr.com/photos/stavos52093/" target="_blank"> stavos</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank">CC BY-NC-ND 4.0</a>
+</span>
 
 Note:
 * Traffic is encrypted
@@ -26,7 +39,7 @@ Note:
 
 
 
-<!-- .slide: data-background-image="images/secret-3037639_1280.jpg" -->
+<!-- .slide: data-background-image="images/encryption.jpg" -->
 ### What is encryption
 
 Note:
@@ -71,6 +84,10 @@ Note:
 <!-- .slide: data-background-image="images/mixed-blocks.jpg" -->
 ### Mixed Content
 
+<span class="attribution fragment">
+<a href="https://www.flickr.com/photos/avlxyz/35435817803" target="_blank">"Green 2x2 brick in a sea of orange 4x2 Lego bricks"</a> by <a href="https://www.flickr.com/photos/avlxyz/" target="_blank">Alpha</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0" target="_blank">CC BY-NC 4.0</a>
+</span>
+
 Note:
 * The html page itself is secure (https) but it loads insecure resources (http)
 * This greatly reduces the privacy provided by https
@@ -82,16 +99,32 @@ Note:
 <!-- .slide: data-background-image="https://media.giphy.com/media/l3q2y0UyD0OOMchAA/giphy.gif" -->
 ### HTTPS Errors
 
+
+![Firefox certificate error for expired certificate](images/cert-error-expired.png)
+
 Note:
-* Common errors include
- * Expired certificate (check your date/time - otherwise server is misconfigured)
- * Unknown certififer (maybe self signed or they left out the certificate chain)
- * Wrong domain (server is misconfigured or accessing wrong server)
+* Expired certificate (check your date/time - otherwise server is misconfigured)
+
+
+![Chrome certificate error for invalid authority](images/cert-error-invalid.png)
+
+Note:
+* Unknown certififer (maybe self signed or they left out the certificate chain)
+
+
+![Chrome certificate error for invalid domain](images/cert-error-domain.png)
+
+Note:
+* Wrong domain (server is misconfigured or accessing wrong server)
 
 
 
 <!-- .slide: data-background-image="images/Law-Enforcement-Policeman-Lego-Police-1058422.jpg" -->
 ### Do I need HTTPS for *everything*?
+
+<span class="attribution">
+<a href="http://maxpixel.freegreatpicture.com/Law-Enforcement-Policeman-Lego-Police-1058422" target="_blank">"Law Enforcement Policeman Lego Police"</a> by <a href="http://maxpixel.freegreatpicture.com/" target="_blank">Max Pixel</a> is in the <a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Public Domain, CC0</a>
+</span>
 
 Note:
 * To provide privacy everything needs to be secure
@@ -105,9 +138,6 @@ Note:
 <!-- .slide: data-background-image="images/hand-plastic-finger-macro-yellow-closeup-281276-pxhere.com.jpg" -->
 ### Questions
 
-
-
-<!-- .slide: data-background-image="images/lego-1044891_1280.jpg" -->
-### Thanks
-https://www.flickr.com/photos/avlxyz/35435817803
-http://maxpixel.freegreatpicture.com/Law-Enforcement-Policeman-Lego-Police-1058422
+<span class="attribution">
+<a href="https://pxhere.com/en/photo/281276" target="_blank">"Plastic Hand"</a> by <a href="https://pxhere.com/" target="_blank">PXHere</a> is in the <a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Public Domain, CC0</a>
+</span>

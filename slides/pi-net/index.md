@@ -212,7 +212,7 @@ Configure network forwarding between our wlan0 and eth0 interfaces by running th
 ### Install a web server
 * Install apache
 ```
-sudo apt-get install apache
+sudo apt-get install apache2
 ```
 
 OR

@@ -71,3 +71,71 @@ Expand the page elements if they are not already by clicking on the little arrow
 * Can you edit the text of a heading?
 * What happens when you refresh? Why?
 
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Chrome Developer tools: Network
+* View all HTTP requests the page makes <!-- .element: class="fragment" data-fragment-index="1" -->
+* View files downloaded <!-- .element: class="fragment" data-fragment-index="2" -->
+* View REST requests and responses <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Chrome Developer tools: Network
+<video>
+	<source data-src="videos/dev-tools-network.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Chrome Developer tools: Network
+![Chrome network tab](images/chrome-dev-network.png)
+
+Note:
+Open the network tab and reload the page. You will see a list of files appear. Each of these is a seperate HTTP request. They include the original HTML document as well as any images, stylesheets or scripts the page requires. You can also see when the page requests more data from a server.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Chrome Developer tools: Network timeline 
+![Chrome network timeline](images/chrome-dev-network-timeline.png)
+
+Note:
+The timeline shows when it loaded different resources and how long they took. If you have a really big script or image that is making everything slow to load you can see it here.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Chrome Developer tools: Network requests
+![Chrome network requests](images/chrome-dev-network-requests.png)
+
+Note:
+The timeline shows when it loaded different resources and how long they took. If you have a really big script or image that is making everything slow to load you can see it here. It will show you the file requested, the response code, what initiated the request, how big the file is and how long it took to download.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Chrome Developer tools: Network details
+![Chrome network details](images/chrome-dev-network-details.png)
+
+Note:
+The bottom panel tells you how big the page is and how long it took to download and load. What do you are the difference between Finish, DOMContentLoaded and Load?
+
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Chrome Developer tools: Web console
+![Chrome network console](images/chrome-dev-network-console.png)
+
+Note:
+The console is where any page errors or javascript output appear. There probably isn't much for your pages. But this is really useful once you start using javascript. We'll come back to this later in the course.
+
+
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Chrome Developer tools: Activity
+* Open a favourite website with dev tools open
+* How big is the page?
+* How long did it take to download?
+* Did it download a lot of files or not many
+* Are there any errors or warnings in the console?
+* Have a look through the elements to learn the page structure
+* Report back to the class on what you find

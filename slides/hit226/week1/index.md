@@ -122,7 +122,7 @@ The bottom panel tells you how big the page is and how long it took to download 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Chrome Developer tools: Web console
-![Chrome network console](images/chrome-dev-network-console.png)
+![Chrome console](images/chrome-dev-console.png)
 
 Note:
 The console is where any page errors or javascript output appear. There probably isn't much for your pages. But this is really useful once you start using javascript. We'll come back to this later in the course.

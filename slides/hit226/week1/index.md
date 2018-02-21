@@ -139,3 +139,58 @@ The console is where any page errors or javascript output appear. There probably
 * Are there any errors or warnings in the console?
 * Have a look through the elements to learn the page structure
 * Report back to the class on what you find
+
+
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Atom Editor
+![Atom editor](images/Atom_editor_logo.svg)
+
+Note:
+For this course we're going to use Atom. There are a lot of different text editors available and lots are people are pretty dedicated to their favourite. If you already have a favourite feel free to use that. But for those getting starting we recommend using atom
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Why use atom
+* Cross platform
+* Package manager
+* Git integration
+* Configurable
+* Easy to setup and learn
+* Cool features
+	* Syntax highlighting
+	* Smart autocomplete
+	* Search and browse project files
+
+Note:
+Atom is a cross platform, customisable text editor for coding. It is easy to setup and get started with but lets you complately configure the look and feel using HTML and CSS and to extend the functionality with plugins. It also comes with a lot of useful features out of the box like autocomplete, syntax highlighting and project wide search.
+It is also really customisable using web languages. You can change the whole application theming using just CSS! 
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+<video>
+	<source data-src="videos/atom-intro.webm " type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Atom: Activity
+* Open atom and add the document you made before class as a project
+* Explore atom features
+	* Open settings menu (ctl+,)
+	* Explore features in the command palette (ctl+shift+p)
+	* Explore keyboard shortcuts from a list like [https://gist.github.com/chrissimpkins/5bf5686bae86b8129bee](https://gist.github.com/chrissimpkins/5bf5686bae86b8129bee)
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+Share what you found
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Atom plugins
+* Open the settings menu (ctl+,) and select install
+* Type in devdocs and install the package
+* Now go to your html document and select a tag name
+* Press ctl+alt+D to open the documentation for that tag from [https://devdocs.io](devdocs.io)
+

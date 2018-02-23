@@ -144,7 +144,7 @@ The console is where any page errors or javascript output appear. There probably
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
-### Atom Editor
+## Atom Editor
 ![Atom editor](images/Atom_editor_logo.svg)
 
 Note:
@@ -194,3 +194,43 @@ Share what you found
 * Now go to your html document and select a tag name
 * Press ctl+alt+D to open the documentation for that tag from [https://devdocs.io](devdocs.io)
 
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+## HTML Validation
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Why validate
+* Identify mistakes
+	* Typos
+	* Unclosed tags
+	* Missing doctype
+	* Weird stuff
+
+Note:
+If you make a mistake in your HTML the browser will guess what you were trying to do and show that. This means that sometimes you don’t notice if you forgot to close a tag or used an invalid property. Unfortunately, because the browsers guess what they think you’re trying to do it might not work the same in all browsers. To address this we can validate our HTML.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+<video>
+	<source data-src="videos/html-validator.webm" type="video/webm" />
+</video>
+
+Note:
+You can see I've made some mistakes in my HTML. I accidently included an extra < in an img tag and forgot to close some tags
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Validation Exercise
+* Visit [https://validator.w3.org/](https://validator.w3.org/)
+* Validate your page by direct input
+* Discuss what you found
+
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->

@@ -230,6 +230,87 @@ You can see I've made some mistakes in my HTML. I accidently included an extra <
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+## Semantic HTML
+
+Note:
+HTML represents the content and structure of a page. We spend so much time thinking about what the page looks like that we sometimes forget this. But when writing HTML we shouldn’t be thinking about the visual layout so much as the structural layout. 
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Why do semantics matter
+* Bots and SEO
+* Vision impaired users
+* People with arthritis
+* Someone eating a sandwich
+* Developers picking up your code (you)
+
+Note:
+Not everyone looks at a page as we see it rendered. Just as not everyone navigates it with a keyboard and a mouse. A well structured page pages it easier to parse and navigate for all users. Some examples of users we might want to consider.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Semantic elements
+Describe what is in the tag
+* form
+* img
+* table
+* ul
+
+Note:
+Not everyone looks at a page as we see it rendered. Just as not everyone navigates it with a keyboard and a mouse. A well structured page pages it easier to parse and navigate for all users. Some examples of users we might want to consider.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### New HTML5 semantic elements
+* header
+* main
+* footer
+* nav
+* section
+* article
+* video
+
+Note:
+Not everyone looks at a page as we see it rendered. Just as not everyone navigates it with a keyboard and a mouse. A well structured page pages it easier to parse and navigate for all users. Some examples of users we might want to consider.
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Semantics Activity
+* Have a look at the element list at [https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content)
+* Look at the flowchart at [http://html5doctor.com/downloads/h5d-sectioning-flowchart.png](http://html5doctor.com/downloads/h5d-sectioning-flowchart.png)
+* Update your HTML to use the new semantic elements
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Questions
+* When do you think you should use a div element?
+* How should you name a new section?
+* What do you think about the new semantic elements?
+	* Too many
+	* Not enouch
+	* Too confusing?
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Final thoughs
+<blockquote cite="http://html5doctor.com/lets-talk-about-semantics/">
+	<p>Don&#39;t think of &lt;article&gt; as a magazine article. Think of it as an article of clothing, an independent entity that can be arranged in conjunction with other articles of clothing, but is a complete thing in itself.</p>
+	<footer><a href="http://html5doctor.com/lets-talk-about-semantics/">Bruce Lawson</a></footer>
+</blockquote>
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+
+
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 
 
 

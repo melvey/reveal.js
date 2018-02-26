@@ -350,6 +350,25 @@ You might also hear git pull. This is a shortcut command to fetch and merge
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### WinGit client
 * Lots of clients available
+* Download from [https://git-scm.com/](https://git-scm.com/)
+* GUI with Git GUI and command prompt with Git Bash
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+#### Clone a repository
+![Git GUI open menu with "Git GUI here" highlighted](images/gitgui-open.png) <!-- .element: class="screenshot--small" -->
+![Git GUI new repoitory and clone options](images/gitgui-menu-new.png) <!-- .element: class="screenshot--small" -->
+![Git GUI clone menu](images/gitgui-menu-clone.png) <!-- .element: class="screenshot--small" -->
+
+Note:
+To clone an existing repository to your computer, right click where you want to clone it and select "Git GUI here". Select "Clone existing repository" and enter the git address in "Source Location". Enter the path you want to clone to in "Target directory". Note that the final directory in target directory should not exist as git will create it for you.
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+#### Fetch changes
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Commit and Push
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->

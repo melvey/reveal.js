@@ -298,20 +298,81 @@ Not everyone looks at a page as we see it rendered. Just as not everyone navigat
 </blockquote>
 
 
-<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
-
-
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
-
-
+## Git
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### What is git
+* Source control
+* Version control
+* Distributed
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Why use git
+* Store and share source code
+* Tracks changes and versions over time
+	* Can go back if we broke something
+* Allows multiple people to work on the same code without disrupting eachother
 
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Git functions
+* Clone - Copy a repository to our local machine
+* Add - Stage a file to commit
+* Commit - Store a code change in git
+* Push - send our code changes to the server
+* Pull - get code changes from the server
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Github
+* A public git server
+* A place to publish and share your code
+* A place to find and download code other people have written
+* A platform to submit code changes to open source projects
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Activity: Setup a git repository
+* Register for github
+* Create a new repository for the unit
+* Create a folder in the repository for week 1
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### WinGit client
+* Lots of clients available
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Activity: Git local repository
+* Clone the project to your local machine
+	* You can get the address from the green clone button on github
+* Copy your html and any required files to the week one directory
+* Add the new files to git
+* Commit the staged files with the comment "Add week one files"
+* Push your code and check it appears on the github website
+* Edit the readme file and push it to github
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Some tips
+* Pull from the server before you start writing
+* Push whenever you finish writing
+* A commit should be self-contained
+	* If you are editing multiple files, include them all
+	* Keep them small so it is easy to see what has changed
+	* It is better to commit too much rather than not enough
+	* Try not to break things
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Merge errors
+* If you get a merge error look at what has changed and decide what you want to keep
+* Do not force push. You will probably make things much worse.
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->

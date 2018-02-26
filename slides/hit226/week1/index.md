@@ -16,7 +16,7 @@ Plenty of good brower choices
 ![Microsoft edge logo](images/Microsoft_Edge_logo.svg) <!-- .element: class="browser-icon" -->
 
 Note:
-As you’re likely aware the different major browsers have some differences in the features they support and performance. Everyone has their own preferences and so in the workplace we need to test with all the major browsers. 
+As you’re likely aware the different major browsers have some differences in the features they support and performance. Everyone has their own preferences and so in the workplace we need to test with all the major browsers.
 
 
 
@@ -52,7 +52,7 @@ Click the elements tab and look at the contents. It should look just like HTML y
 </video>
 
 Note:
-Expand the page elements if they are not already by clicking on the little arrows. Notice how the view of your page highlights the element you are currently hovering over? This makes it easy to see where the element sits as well as any padding, margins or borders. On the right you can see the CSS for the element. 
+Expand the page elements if they are not already by clicking on the little arrows. Notice how the view of your page highlights the element you are currently hovering over? This makes it easy to see where the element sits as well as any padding, margins or borders. On the right you can see the CSS for the element.
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
@@ -96,7 +96,7 @@ Open the network tab and reload the page. You will see a list of files appear. E
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
-### Chrome Developer tools: Network timeline 
+### Chrome Developer tools: Network timeline
 ![Chrome network timeline](images/chrome-dev-network-timeline.png)
 
 Note:
@@ -165,7 +165,7 @@ For this course we're going to use Atom. There are a lot of different text edito
 
 Note:
 Atom is a cross platform, customisable text editor for coding. It is easy to setup and get started with but lets you complately configure the look and feel using HTML and CSS and to extend the functionality with plugins. It also comes with a lot of useful features out of the box like autocomplete, syntax highlighting and project wide search.
-It is also really customisable using web languages. You can change the whole application theming using just CSS! 
+It is also really customisable using web languages. You can change the whole application theming using just CSS!
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
@@ -233,7 +233,7 @@ You can see I've made some mistakes in my HTML. I accidently included an extra <
 ## Semantic HTML
 
 Note:
-HTML represents the content and structure of a page. We spend so much time thinking about what the page looks like that we sometimes forget this. But when writing HTML we shouldn’t be thinking about the visual layout so much as the structural layout. 
+HTML represents the content and structure of a page. We spend so much time thinking about what the page looks like that we sometimes forget this. But when writing HTML we shouldn’t be thinking about the visual layout so much as the structural layout.
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
@@ -324,7 +324,12 @@ Not everyone looks at a page as we see it rendered. Just as not everyone navigat
 * Add - Stage a file to commit
 * Commit - Store a code change in git
 * Push - send our code changes to the server
-* Pull - get code changes from the server
+* Fetch - Get code from the server
+* Merge - Mix new code in with ours or vice versa
+* Rebase - Like merge but different
+
+Note:
+You might also hear git pull. This is a shortcut command to fetch and merge
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
@@ -360,7 +365,7 @@ Not everyone looks at a page as we see it rendered. Just as not everyone navigat
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Some tips
-* Pull from the server before you start writing
+* Fetch from the server before you start writing
 * Push whenever you finish writing
 * A commit should be self-contained
 	* If you are editing multiple files, include them all

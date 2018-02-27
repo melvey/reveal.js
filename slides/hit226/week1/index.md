@@ -363,12 +363,25 @@ You might also hear git pull. This is a shortcut command to fetch and merge
 Note:
 To clone an existing repository to your computer, right click where you want to clone it and select "Git GUI here". Select "Clone existing repository" and enter the git address in "Source Location". Enter the path you want to clone to in "Target directory". Note that the final directory in target directory should not exist as git will create it for you.
 
+
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 #### Fetch changes
+![Git GUI remote menu](images/gitgui-fetch.png) <!-- .element: class="fragment" data-fragment-index="1" -->
+![Git GUI merge menu](images/gitgui-merge.png) <!-- .element: class="fragment" data-fragment-index="2" -->
+
+Note:
+To get the latests changes from the server open Git GUI, select "Remote" from the menu, "Fetch from" then "origin". This downloads the latests changes from the server. To mix the in with your code select the "Merge" menu then "Local merge". Now your code is up to date.
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Commit and Push
+![Git GUI buttons with rescan highlighted](images/gitgui-rescan.png) <!-- .element: class="fragment" data-fragment-index="1" -->
+![Git GUI commit menu with stage selected](images/gitgui-stage.png) <!-- .element: class="fragment" data-fragment-index="2" -->
+![Git GUI buttons with commit selected](images/gitgui-commit.png) <!-- .element: class="fragment" data-fragment-index="3" -->
+![Git GUI buttons with push selected](images/gitgui-push.png) <!-- .element: class="fragment" data-fragment-index="4" -->
+
+Note:
+When you finish you'll need to commit to save your work and push to send them to the server. From Git GUI select "rescan" to search for changed files. You should see a list of modified files appear. Now open the Commit menu and select "Stage to commit". Now your files are staged you can commit them to the repository. Enter a description of what has changed in the "Commit Message" field and click the "commit button". Your changes are now saved". Click the push button to send your changes to the server.
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
@@ -391,12 +404,3 @@ To clone an existing repository to your computer, right click where you want to 
 	* Keep them small so it is easy to see what has changed
 	* It is better to commit too much rather than not enough
 	* Try not to break things
-
-
-<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
-### Merge errors
-* If you get a merge error look at what has changed and decide what you want to keep
-* Do not force push. You will probably make things much worse.
-
-
-<!-- .slide: data-background-image="images/bg-mouse.jpg" -->

@@ -21,7 +21,6 @@ Note:
 As you’re likely aware the different major browsers have some differences in the features they support and performance. Everyone has their own preferences and so in the workplace we need to test with all the major browsers.
 
 
-
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 We're going to use chrome
 

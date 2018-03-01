@@ -180,14 +180,14 @@ For this course we're going to use Atom. There are a lot of different text edito
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Why use atom
 * Cross platform
-* Package manager
-* Git integration
-* Configurable
+* Configurable (HTML & CSS)
 * Easy to setup and learn
+* Package manager
 * Cool features
 	* Syntax highlighting
 	* Smart autocomplete
 	* Search and browse project files
+	* Git integration
 
 <audio src="audio/atom-why.ogg"></audio>
 
@@ -311,6 +311,7 @@ Semantic elements describe what sort of data is in the element. Some you might h
 
 Note:
 HTML5 bought us a lot of new semantic elements. The big changes are the structural elements that tells us where the content belongs in the page structure. What do you think these mean?
+
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Semantics Activity

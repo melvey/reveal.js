@@ -263,6 +263,9 @@ Here I'm validating my HTML using the W3C validator. You can see I've made some 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ## Semantic HTML
+* HTML describes the structure of the page <!-- .element: class="fragment" data-fragment-index="1" -->
+* Semantic HTML adds meanining <!-- .element: class="fragment" data-fragment-index="1" -->
+* Not about look and feel <!-- .element: class="fragment" data-fragment-index="1" -->
 
 <audio src="audio/semantic-intro.ogg"></audio>
 

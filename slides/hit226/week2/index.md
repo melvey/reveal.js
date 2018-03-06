@@ -103,12 +103,19 @@ We talked last week about why semantic HTML is important. There are a lot of dif
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Headings
 
+* 6 heading levels
+	* &lt;h1&ght; ... &lt;h6&gt;
+* Should be used in order
+	* Do not skip heading types
+* Usually only one h1 per page
+
 Note:
 HTML has 6 heading levels. H1 - h6 and should be used in order. A document should have exactly one h1 element and each heading should fall under the heading above it. Some guides say you shouldn't use anything more than h3 or h4, the headings exist for a reason and it is fine to use them but it might be a clue that your content is too complicated
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### &lt;nav&gt;
+* Contains navigation links
 
 Note:
 Nav indicates that it contains navigation links. In your exercises last week quite a few people used nav elements which was really good to see. Please note that is is not a list element and may not have list items as direct children. It may however contain an ordered or more often, an unordered list.
@@ -116,6 +123,9 @@ Nav indicates that it contains navigation links. In your exercises last week qui
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### &lt;figure&gt; and &lt;figcaption&gt;
+* Image, diagram, graph, code snippet, etc...
+* Self contained
+* Use &lt;figcaption&gt; to add captions or legends
 
 Note:
 A figure is usually an image, diagram, graph, code snippet or similar. It should be self-contained and make sense without the surrounding content. Figcaption contains a caption or legend for the parent figure.
@@ -123,6 +133,11 @@ A figure is usually an image, diagram, graph, code snippet or similar. It should
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### &lt;article&gt;
+* Self contained content
+* Would make sense without the rest of the page
+* Should have a heading
+* Can be nested
+	* e.g. article for blog post and articles for comments
 
 Note:
 A self-contained item of content. It should generally have a heading. If you pulled an article out and put it on another page it should still make sense. Examples are blog posts, user comments or even items in an image gallery if they don’t need context. 
@@ -130,6 +145,9 @@ A self-contained item of content. It should generally have a heading. If you pul
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### &lt;section&gt;
+* Content that depends on the parent for context
+* Would not make sense without surrounding content
+* Should have a heading
 
 Note:
 An item of content that depends on the surrounding content for context. If you pulled a section out and put it elsewhere it would not make sense. A section should also generally have a heading. 
@@ -137,6 +155,7 @@ An item of content that depends on the surrounding content for context. If you p
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### &lt;p&gt;
+* Text paragraph
 
 Note:
 The paragraph tag should be used for all text paragraphs. This is preferable to a div as it is clear it contains a paragraph of text.
@@ -144,6 +163,8 @@ The paragraph tag should be used for all text paragraphs. This is preferable to 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### &lt;div&gt; and &lt;span&gt;
+* Use for styling
+* Has no impact on content structure
 
 Note:
 If a tag is needed for styling but should not have an impact on the structure of the context you should use a div or a span tag. 
@@ -151,6 +172,11 @@ If a tag is needed for styling but should not have an impact on the structure of
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### &lt;input&gt;
+* Not really structural
+* Lots of new types with HTML5
+	* email
+	* date
+	* number
 
 Note:
 Not really a structural element. But worth mentioning all the same. You are likely familiar with the input element. However HTML added a lot more types that give forms more semantic context. Instead of just text, radio, password, hidden, etc… We now have input types like email, date, number and tel. Note that these do not all give you a special input form but help advise the user’s browser what type of input is expected. For example tel is considered too complicated for browsers to validate but may prompt a mobile browser to first show a numeric keyboard.
@@ -158,3 +184,88 @@ Not really a structural element. But worth mentioning all the same. You are like
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Activity: Write the markup
+
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+## Document Object Model
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### What is the DOM?
+* Not HTML
+* What you see in dev tools
+* Browser representation of the document and elements
+* Can be modified after page load
+
+Note:
+M is not the HTML you write or get from view source. But that is used to create it.
+The DOM is what you see in dev tools. It looks like HTML but that’s just a way to represent it.
+The DOM is the browser representation of the document and the elements that make it up. The main difference between the DOM and your HTML is that the DOM can be manipulated after the page has loaded. We’ll go into that when we get to javascript. For now, let’s talk about the structure
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Parents, Children and Siblings
+* Common terminology
+	* "walk up" to parents
+	* "walk down" to children
+	* "walk across" to siblings
+
+Note:
+When we “walk” or traverse the DOM we walk down to the “children” of an element, across to the “siblings” and up to the “parents”. We also use these terms when we talk about CSS selectors so it is worth understanding the terminology.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+## Tree structure
+* A tree of nodes
+* Document is the root node
+* html under document
+* body under html
+
+Note:
+These parent relationships make for an intuitive tree structure. You can think of the DOM as a tree of nodes, with document as the root node.Under document you would find html which would have the body and head nodes branching off it. Lets draw this code as a DOM tree
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Activity: Draw the tree
+```
+<html>
+	<head>
+		<title>My page</title>
+	</head>
+	<body>
+		<main>
+			<article>
+				<h2>My article</h2>
+				<section>
+					<h2>My section</h2>
+					<p>My text</p>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>
+```
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Rendered
+* Children usually appear inside their parents
+* Like boxes in boxes
+
+Note:
+As a general rule (with lots of exceptions) each element should appear inside the parent. Yes, it is easy to make it appear outside with CSS but the are usually logically nested as content. You could think of them as boxes inside boxes. So this DOM tree will look like this
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Draw the page
+
+Note::
+It’s hard work to make a page if you just use trial and error. Fortunately the DOM renders pretty intuitively. Have a look at this page and try to draw it it groups of threes. Talk about why you think it works. We’ll bring some up to look at when you finish.
+
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+## CSS
+
+

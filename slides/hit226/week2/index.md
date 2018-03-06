@@ -90,3 +90,71 @@ All content images require an alt tag to describe the image. If the image is not
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q_ATY9gimOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+## Structural elements
+
+Note:
+We talked last week about why semantic HTML is important. There are a lot of different elements. Lets have a look at a few. Don’t worry if you don’t remember them all, you can always come back to look later. 
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Headings
+
+Note:
+HTML has 6 heading levels. H1 - h6 and should be used in order. A document should have exactly one h1 element and each heading should fall under the heading above it. Some guides say you shouldn't use anything more than h3 or h4, the headings exist for a reason and it is fine to use them but it might be a clue that your content is too complicated
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### &lt;nav&gt;
+
+Note:
+Nav indicates that it contains navigation links. In your exercises last week quite a few people used nav elements which was really good to see. Please note that is is not a list element and may not have list items as direct children. It may however contain an ordered or more often, an unordered list.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### &lt;figure&gt; and &lt;figcaption&gt;
+
+Note:
+A figure is usually an image, diagram, graph, code snippet or similar. It should be self-contained and make sense without the surrounding content. Figcaption contains a caption or legend for the parent figure.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### &lt;article&gt;
+
+Note:
+A self-contained item of content. It should generally have a heading. If you pulled an article out and put it on another page it should still make sense. Examples are blog posts, user comments or even items in an image gallery if they don’t need context. 
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### &lt;section&gt;
+
+Note:
+An item of content that depends on the surrounding content for context. If you pulled a section out and put it elsewhere it would not make sense. A section should also generally have a heading. 
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### &lt;p&gt;
+
+Note:
+The paragraph tag should be used for all text paragraphs. This is preferable to a div as it is clear it contains a paragraph of text.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### &lt;div&gt; and &lt;span&gt;
+
+Note:
+If a tag is needed for styling but should not have an impact on the structure of the context you should use a div or a span tag. 
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### &lt;input&gt;
+
+Note:
+Not really a structural element. But worth mentioning all the same. You are likely familiar with the input element. However HTML added a lot more types that give forms more semantic context. Instead of just text, radio, password, hidden, etc… We now have input types like email, date, number and tel. Note that these do not all give you a special input form but help advise the user’s browser what type of input is expected. For example tel is considered too complicated for browsers to validate but may prompt a mobile browser to first show a numeric keyboard.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### Activity: Write the markup

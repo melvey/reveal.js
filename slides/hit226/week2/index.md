@@ -46,7 +46,20 @@ Red green colour blindness affect 8% of Northern European Men (https://nei.nih.g
 Only around 1 in 100- eskimos are colour blind (http://www.colour-blindness.com/general/prevalence/)
 Blue colour blindness is less common.
 Strong contrast is not just for colourblind people though. It is hard for everyone to read with poor contrast and especially hard for people with failing vision.
-Show colour blind examples
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+![normal](images/vision-normal.png) <!-- .element: class="screenshot-small" -->
+![deureranomaly](images/vision-deureranomaly.png) <!-- .element: class="screenshot-small fragment" data-fragment-index="1" -->
+![deuteranopia](images/vision-deuteranopia.png) <!-- .element: class="screenshot-small fragment" data-fragment-index="1" -->
+![protanopia](images/vision-protanopia.png) <!-- .element: class="screenshot-small fragment" data-fragment-index="1" -->
+![tritanopia](images/vision-tritanopia.png) <!-- .element: class="screenshot-small fragment" data-fragment-index="1" -->
+![monochrome](images/vision-monochrome.png) <!-- .element: class="screenshot-small fragment" data-fragment-index="1" -->
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+![blurry image](images/vision-blur.png)
+* How many people need glasses? <!-- .element class="fragment" data-fragment-index="1" -->
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->

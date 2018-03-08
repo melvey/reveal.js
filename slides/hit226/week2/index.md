@@ -184,6 +184,7 @@ Not really a structural element. But worth mentioning all the same. You are like
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Activity: Write the markup
+[The importance of sections](https://www.smashingmagazine.com/2013/01/the-importance-of-sections/?_ga=2.72253905.354623181.1520469113-698638064.1518098509)
 
 
 
@@ -206,24 +207,32 @@ The DOM is the browser representation of the document and the elements that make
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Parents, Children and Siblings
-* Common terminology
-	* "walk up" to parents
-	* "walk down" to children
-	* "walk across" to siblings
+![UL parent and li children](images/parent-child-elems.png )
 
 Note:
 When we “walk” or traverse the DOM we walk down to the “children” of an element, across to the “siblings” and up to the “parents”. We also use these terms when we talk about CSS selectors so it is worth understanding the terminology.
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+* Common terminology
+	* "walk up" to parents
+	* "walk down" to children
+	* "walk across" to siblings
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ## Tree structure
+![DOM Model](https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg)
+By Birger Eriksson (Own work) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons <!-- .element: class="attribution" -->
+
+Note:
+These parent relationships make for an intuitive tree structure. You can think of the DOM as a tree of nodes, with document as the root node.Under document you would find html which would have the body and head nodes branching off it. Lets draw this code as a DOM tree
+
+
 * A tree of nodes
 * Document is the root node
 * html under document
 * body under html
-
-Note:
-These parent relationships make for an intuitive tree structure. You can think of the DOM as a tree of nodes, with document as the root node.Under document you would find html which would have the body and head nodes branching off it. Lets draw this code as a DOM tree
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
@@ -250,6 +259,7 @@ These parent relationships make for an intuitive tree structure. You can think o
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Rendered
+![Rendered parent and children elems](images/rendered-parent-child.png)
 * Children usually appear inside their parents
 * Like boxes in boxes
 
@@ -259,6 +269,24 @@ As a general rule (with lots of exceptions) each element should appear inside th
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Draw the page
+```
+<html>
+	<head>
+		<title>My page</title>
+	</head>
+	<body>
+		<main>
+			<article>
+				<h2>My article</h2>
+				<section>
+					<h2>My section</h2>
+					<p>My text</p>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>
+```
 
 Note::
 It’s hard work to make a page if you just use trial and error. Fortunately the DOM renders pretty intuitively. Have a look at this page and try to draw it it groups of threes. Talk about why you think it works. We’ll bring some up to look at when you finish.

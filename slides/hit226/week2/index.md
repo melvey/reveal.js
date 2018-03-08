@@ -233,7 +233,8 @@ Not really a structural element. But worth mentioning all the same. You are like
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Activity: Write the markup
-[The importance of sections](https://www.smashingmagazine.com/2013/01/the-importance-of-sections/?_ga=2.72253905.354623181.1520469113-698638064.1518098509)
+* [The importance of sections](https://www.smashingmagazine.com/2013/01/the-importance-of-sections/?_ga=2.72253905.354623181.1520469113-698638064.1518098509)
+* [Content](https://online.cdu.edu.au/bbcswebdav/pid-2569075-dt-content-rid-8647604_2/xid-8647604_2)
 
 
 

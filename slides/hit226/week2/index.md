@@ -36,7 +36,7 @@ All inputs should have a label correctly attached using the for attribute. NEVER
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Colour contrast
-* Vision problems are incredible common
+* Vision problems are incredibly common
 * Red/green colour blindness affects ~8% of Northern European Men
 * Strong contrast important for everyone
 

@@ -117,7 +117,7 @@ We talked last week about why semantic HTML is important. There are a lot of dif
 ### Headings
 
 * 6 heading levels
-	* &lt;h1&ght; ... &lt;h6&gt;
+	* &lt;h1&gt; ... &lt;h6&gt;
 * Should be used in order
 	* Do not skip heading types
 * Usually only one h1 per page
@@ -142,6 +142,13 @@ Nav indicates that it contains navigation links. In your exercises last week qui
 
 Note:
 A figure is usually an image, diagram, graph, code snippet or similar. It should be self-contained and make sense without the surrounding content. Figcaption contains a caption or legend for the parent figure.
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+### &lt;aside&gt;
+* Only indirectly related to surrounding content
+* Or related to core content but not part of the core content
+* Like a sidebar or those sub-articles you sometimes see in a magazine
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
@@ -236,12 +243,13 @@ When we “walk” or traverse the DOM we walk down to the “children” of an 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ## Tree structure
 ![DOM Model](https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg)
-By Birger Eriksson (Own work) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons <!-- .element: class="attribution" -->
+<p class="attribution">By Birger Eriksson (Own work) [<a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>], via Wikimedia Commons</a>
 
 Note:
 These parent relationships make for an intuitive tree structure. You can think of the DOM as a tree of nodes, with document as the root node.Under document you would find html which would have the body and head nodes branching off it. Lets draw this code as a DOM tree
 
 
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 * A tree of nodes
 * Document is the root node
 * html under document

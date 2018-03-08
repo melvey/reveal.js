@@ -22,6 +22,33 @@ Headers should be marked with scole=”col” or scope=”row”. This makes it 
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+```html
+<table>
+<caption>2018 Oscar Winders</caption>
+
+<tr>
+<th scope="col">Name</th>
+<th scope="col">Category</th>
+<th scope="col">Director</th>
+</tr>
+
+<tr>
+<th scope="row">Guillermo del Toro</th>
+<td>Best Picture</td>
+<td>The Shape of Water</td>
+</tr>
+
+<tr>
+<th scope="row">Get Out</th>
+<td>Best original screenplay</td>
+<td>Jordan Peele</td>
+</tr>
+
+</table>
+```
+
+
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ### Forms
 * Logical order
 * Test with tab navigation
@@ -66,6 +93,8 @@ Strong contrast is not just for colourblind people though. It is hard for everyo
 ### Activity: Fix the contrast
 * Download template from learnline
 * Fix colour contrast
+	* Check using online tools
+	* http://leaverou.github.io/contrast-ratio/
 
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->

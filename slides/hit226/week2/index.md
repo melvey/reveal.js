@@ -2,6 +2,11 @@
 # <span>Skill Up:</span> <span>Code</span>
 
 
+<!-- .slide: data-background-image="images/bg-mouse.jpg" -->
+## What did you learn last week?
+Without talking write down the top thing you learned last week
+
+
 
 <!-- .slide: data-background-image="images/bg-mouse.jpg" -->
 ## Accessibility

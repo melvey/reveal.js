@@ -20,6 +20,15 @@
 	font-size: 0.8em;
 }
 
+.reveal .slide-background {
+	filter: brightness(0.7) contrast(0.8);
+}
+
+.reveal pre code {
+	font-size: 1.2em;
+
+}
+
 .reveal .attribution {
 	position: fixed;
 	bottom: 0;

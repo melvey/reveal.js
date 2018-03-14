@@ -241,3 +241,15 @@ AFRAME.registerComponent('backface-text', {
 ```
 
 [Demo](demo/ar.html)
+
+
+
+<!-- .slide: data-background-image="images/computer-woman-technology-programming-font-animation-1204851-pxhere.com.jpg" -->
+### How do I get started?
+* [A-Frame school](https://aframe.io/aframe-school/#/)
+* [Docs and demos](https://aframe.io/)
+* [JSConf.asia talk](https://www.youtube.com/watch?v=QYnJUrvzlLk&t=651s)
+* [ARJS Intro](https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf)
+* [JSConf.asia arjs talk](https://www.youtube.com/watch?v=NBrM7YVznzk)
+* [Supermedium](https://www.supermedium.com/) a VR web browser
+* Hit me up on [Slack](https://slack.darwinwebstandards.org/)

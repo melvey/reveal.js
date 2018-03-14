@@ -66,6 +66,7 @@ What?? <!-- .element class="fragment" data-fragment="1" -->
 ### Using AFrame
 * Import the JS library
 * Create a 3D scene using HTML markup
+* Some great starters at [glitch.io](https://glitch.com/~aframe)
 
 
 <!-- .slide: data-background-image="images/magnifying-glass-2244781_1280.png" -->
@@ -85,6 +86,7 @@ What?? <!-- .element class="fragment" data-fragment="1" -->
 <!-- .slide: data-background-image="https://upload.wikimedia.org/wikipedia/commons/7/78/Hexahedron.jpg" -->
 ### Position and rotation
 * Vector 3 for x, y, z
+
 ```
 <a-box
 	position="0 1 -2"
@@ -96,13 +98,18 @@ What?? <!-- .element class="fragment" data-fragment="1" -->
 <!-- .slide: data-background-image="images/wood-3221038_1280.jpg" -->
 ### Materials
 * Apply a texture using src
+
 ```js
 <a-sky src="images/space.jpg"></a-sky>
 ```
+
 * Set properties using [material component](https://aframe.io/docs/0.8.0/components/material.html)
+
 ```js
 <a-sphere material="shader: standard; color: #ddf"></a-sphere>
 ```
+
+[Skydome](demo/skydome.html)
 
 Note:
 Make a skydome
@@ -133,8 +140,6 @@ Note: Make the sun spin
 * Animation is not yet properly supported
 * Can import from web sources with https://dist.3d.io/3dio-js/1.1.x/3dio.min.js
 
-Note: Add satelite
-
 
 <!-- .slide: data-background-image="images/MaxPixel.freegreatpicture.com-Tool-Clay-Utensils-Borbagatto-Magela-To-Model-1754170.jpg" -->
 ### Model code
@@ -148,10 +153,13 @@ Note: Add satelite
       ></a-entity> 
 ```
 
+[Demo](https://glitch.com/~pine-visitor)
+
 
 <!-- .slide: data-background-image="images/light-1030988_1280.jpg" -->
 ### Lighting
 * [Light component](https://aframe.io/docs/0.8.0/components/light.html)
+
 ```js
 	<a-entity light="type: directional; color: #FFF; intensity: 0.6" position="-0.5 1 1"></a-entity>
 ```
@@ -231,3 +239,5 @@ AFRAME.registerComponent('backface-text', {
         <a-camera-static/>
 </a-scene>
 ```
+
+[Demo](demo/ar.html)

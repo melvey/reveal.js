@@ -25,7 +25,7 @@
 
 <!-- .slide: data-background-image="images/woman-and-virtual-reality.jpg" -->
 ## What headsets do people use
-"Canalys defines a virtual reality headset as a device with a display designed to be worn on the face that immerses the viewer in a virtual world, and it excludes simple viewers, such as Samsung’s Gear VR and Google’s Daydream View"
+"Canalys defines a virtual reality headset as a device with a display designed to be worn on the face that immerses the viewer in a virtual world, and it excludes simple viewers, such as Samsung's Gear VR and Google's Daydream View"
 
 [Canalys](https://www.canalys.com/newsroom/media-alert-virtual-reality-headset-shipments-top-1-million-first-time)
 

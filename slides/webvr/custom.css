@@ -24,6 +24,14 @@
 	filter: brightness(0.7) contrast(0.8);
 }
 
+.fade-bg .slide-background {
+	filter: brightness(0.5) contrast(0.9);
+}
+
+.fade-bg-strong .slide-background {
+	filter: brightness(0.3) contrast(0.9);
+}
+
 .reveal pre code {
 	font-size: 1.2em;
 

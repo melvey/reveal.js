@@ -62,7 +62,7 @@ What?? <!-- .element class="fragment" data-fragment="1" -->
 * Can even work with no headset
 
 
-<!-- .slide: data-background-image="images/pexels-photo-270404.jpeg" -->
+<!-- .slide: data-background-image="images/pexels-photo-270404.jpeg" data-state="fade-bg"-->
 ### Using AFrame
 * Import the JS library
 * Create a 3D scene using HTML markup
@@ -217,7 +217,8 @@ AFRAME.registerComponent('backface-text', {
 ```
 
 
-<!-- .slide: data-background-image="https://upload.wikimedia.org/wikipedia/commons/5/5f/Augmented-reality.jpg" -->
+
+<!-- .slide: data-background-image="https://upload.wikimedia.org/wikipedia/commons/5/5f/Augmented-reality.jpg" data-state="fade-bg"-->
 ## AR.js
 * [Has an aframe component](https://github.com/jeromeetienne/AR.js)
 * Super cool!
@@ -244,7 +245,7 @@ AFRAME.registerComponent('backface-text', {
 
 
 
-<!-- .slide: data-background-image="images/computer-woman-technology-programming-font-animation-1204851-pxhere.com.jpg" -->
+<!-- .slide: data-background-image="images/computer-woman-technology-programming-font-animation-1204851-pxhere.com.jpg" data-state="fade-bg-strong"-->
 ### How do I get started?
 * [A-Frame school](https://aframe.io/aframe-school/#/)
 * [Docs and demos](https://aframe.io/)

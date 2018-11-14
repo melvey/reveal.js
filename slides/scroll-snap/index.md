@@ -21,12 +21,13 @@
 
 <!-- .slide: data-background-image="images/17063208_a739b50788_o.jpg" -->
 ## [New Element Level CSS Scroll Snap](https://www.w3.org/TR/css-scroll-snap-1/)
-* introduced in Safari 11 and last week in Chrome 69
+* introduced in Safari 11 and recently added in Chrome 69
 ![Caniuse image](images/scroll-snap-caniuse.png)
 
 
 <!-- .slide: data-background-image="images/17063208_a739b50788_o.jpg" -->
 * Still only limited support
+* A number of browsers still use the deprecated API
 * Well suited to progressive enhancement
 
 

@@ -22,7 +22,9 @@ Google location services helps calendar know when I need to leave for my appoint
 
 
 <!-- .slide: data-background-image="https://upload.wikimedia.org/wikipedia/commons/c/cc/Google_Home_Mini.jpg" -->
-When google home came out I went to JB every day until they had them in stock. My girlfriend calls it my other girlfriend. 
+When google home came out I went to JB every day until they had them in stock.
+
+My girlfriend calls it my other girlfriend. 
 
 
 <!-- .slide: data-background-image="images/computer-magnifying-glass-laptop-modern-pc-1451249-pxhere.com.jpg" -->

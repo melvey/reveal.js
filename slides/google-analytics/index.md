@@ -2,7 +2,13 @@
 # My problems with Google Analytics
 "If you don't pay for it you are the product" <!-- .element: class="quote__text" -->
 
-Nice sounding quote from an unknown author <!-- .element: class="quote__source" -->
+Unknown author <!-- .element: class="quote__source" -->
+
+
+<!-- .slide: data-background-image="https://upload.wikimedia.org/wikipedia/commons/2/26/Facebook-logo-thumbs-up.png" -->
+## Thanks
+* Thanks to [Dash](https://dash.marketing/) for sponsoring our meetup costs
+* Thanks to [The Screen Hub Hive](https://www.facebook.com/hivescreenhub/) for providing a venue
 
 
 

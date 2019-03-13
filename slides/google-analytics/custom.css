@@ -83,3 +83,20 @@
 #speed-chart-low .ct-label.ct-vertical {
 	color: #f05b4f;
 }
+
+.reveal .quote__text {
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+.reveal .quote__source {
+	font-size: 0.8em;
+	margin-top: 0;
+}
+
+.quote__source::before {
+	content: '- ';
+}
+
+.reveal .image-list ul {
+	font-size: 0.6em;

@@ -1,4 +1,4 @@
-<!-- .slide: data-background-image="https://cdn.freebiesupply.com/logos/large/2x/google-analytics-3-logo-svg-vector.svg" -->
+<!-- .slide: data-background-color="#fff" data-background-image="https://cdn.freebiesupply.com/logos/large/2x/google-analytics-3-logo-svg-vector.svg" -->
 # My problems with Google Analytics
 "If you don't pay for it you are the product" <!-- .element: class="quote__text" -->
 
@@ -160,7 +160,7 @@ https://www.google.com/analytics/terms/us.html <!-- .element: class="quote__sour
 
 
 
-<!-- .slide: data-background-image="https://upload.wikimedia.org/wikipedia/commons/8/89/Circle-question.svg" -->
+<!-- .slide: data-background-color="#fff" data-background-image="https://upload.wikimedia.org/wikipedia/commons/8/89/Circle-question.svg" -->
 ## So what do we do?
 
 
@@ -174,7 +174,7 @@ Ranging from $8 - $1000 a month depending on your needs
 Long before google analytics we used log analysers like AWStats to understand our traffic
 
 
-<!-- .slide: data-background-image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Open_Source_Initiative_keyhole.svg/1024px-Open_Source_Initiative_keyhole.svg.png" -->
+<!-- .slide: data-background-color="#fff" data-background-image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Open_Source_Initiative_keyhole.svg/1024px-Open_Source_Initiative_keyhole.svg.png" -->
 Open source tools like Matomo and OWA can be run locally if you would rather run your own instance than pay for hosted analytics
 
 
@@ -192,7 +192,7 @@ But choosing to use google analytics should be a considered choice, not the defa
 I know budgets are tight but if you make money from your users, please take a moment to consider how your decisions affect them.
 
 
-<!-- .slide: data-background-image="images/communicate-2028004_1280.png" -->
+<!-- .slide: data-background-color="#fff" data-background-image="images/communicate-2028004_1280.png" -->
 And if you use Google Analytics be sure to tell your users
 
 

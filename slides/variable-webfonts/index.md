@@ -99,6 +99,20 @@ h1 {
 
 
 <!-- .slide: data-background-image="images/bg.jpg" -->
+<iframe height="265" style="width: 100%;" scrolling="no" title="Slinky Text - WHOA Variable font demo" src="//codepen.io/mandymichael/embed/rgwdvL/?height=265&theme-id=0&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/mandymichael/pen/rgwdvL/'>Slinky Text - WHOA Variable font demo</a> by Mandy Michael
+  (<a href='https://codepen.io/mandymichael'>@mandymichael</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+
+<!-- .slide: data-background-image="images/bg.jpg" -->
+<iframe height="265" style="width: 100%;" scrolling="no" title="Variable font &quot;gravity&quot; scroll using Chee" src="//codepen.io/mandymichael/embed/LJeZBO/?height=265&theme-id=0&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/mandymichael/pen/LJeZBO/'>Variable font &quot;gravity&quot; scroll using Chee</a> by Mandy Michael
+  (<a href='https://codepen.io/mandymichael'>@mandymichael</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+
+<!-- .slide: data-background-image="images/bg.jpg" -->
 ## Further reading
 * This is inspired by [a talk](https://www.youtube.com/watch?v=BBWMIxXqr-E) by [Mandy Michael](https://codepen.io/mandymichael)
 * [AxisPraxis](https://www.axis-praxis.org/specimens/__DEFAULT__) has a great playground to try out OpenType fonts

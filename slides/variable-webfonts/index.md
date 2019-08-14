@@ -47,9 +47,9 @@ OpenType defines five common axes, although they only work if a font implements 
 
 <!-- .slide: data-background-image="images/bg.jpg" -->
 ## Common axes can be set with font properties
-* font-weight can take any integer from 1-999 (no longer just multiples of 100)
+* font-weight can take any integer from 1-999 (no longer just multiples of 100) <!-- .element: class="font-weight" -->
 * font-stretch takes a percentage where 100% is normal <!-- .element: class="font-stretch" -->
-* font-style takes an oblique angle from -90 to 90
+* font-style takes an oblique angle from -90 to 90 <!-- .element: class="font-style" -->
 * font-optical-sizing takes auto or none to turn on optical sizing
 
 [Demo](https://codepen.io/fridanyvall/pen/ZmKdqJ)

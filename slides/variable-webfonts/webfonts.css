@@ -5,11 +5,7 @@
 
 @font-face {
  font-family: "Venn VF";
-  src: url("https://redonion.se/codepen/fonts/Venn_VF.woff2") format("woff2-variations"), // for Safari
-      url("https://redonion.se/codepen/fonts/Venn_VF.woff2")format("woff2"); // for all other supporting browsers
-  font-display: fallback;
-  font-weight: 300 800; // prevents faux bolding in Safari
-  font-stretch: 75% 125%;
+  src: url("https://redonion.se/codepen/fonts/Venn_VF.woff2")format("woff2"); // for all other supporting browsers
 }
 
 .reveal .title {
@@ -42,10 +38,32 @@
 .reveal .font-stretch {
 	font-family: "Venn VF";
 	font-stretch: 100%;
+	transition: font-stretch 1s;
 }
 .reveal .font-stretch:hover,
 .reveal .font-stretch:focus {
 	font-stretch: 125%;
+}
+	
+
+.reveal .font-weight {
+	font-family: "Venn VF";
+	font-weight: 100;
+	transition: font-weight 1s;
+}
+.reveal .font-weight:hover,
+.reveal .font-weight:focus {
+	font-weight: 800;
+}
+
+.reveal .font-style {
+	font-family: "Venn VF";
+	font-style: oblique 0deg;
+	transition: font-style 1s;
+}
+.reveal .font-style:hover,
+.reveal .font-style:focus {
+	font-style: oblique 45deg;
 }
 	
 

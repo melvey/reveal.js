@@ -1,0 +1,28 @@
+.reveal {
+	text-stroke: 1px black;
+	-webkit-text-stroke: 1px black;
+}
+
+.reveal h1 {
+	font-size: 2em;
+}
+
+.reveal h2 {
+	font-size: 1.3em;
+}
+
+.reveal section img {
+	border: none;
+	background: none;
+}
+
+.reveal a {
+	font-size: 0.8em;
+}
+
+.reveal .attribution {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 0.5em;
+}

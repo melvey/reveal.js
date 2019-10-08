@@ -1,0 +1,69 @@
+@font-face {
+    font-family:'Decovar Regular24'; 
+    src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Decovar-VF.ttf');
+}
+
+@font-face {
+ font-family: "Venn VF";
+  src: url("https://redonion.se/codepen/fonts/Venn_VF.woff2")format("woff2"); // for all other supporting browsers
+}
+
+.reveal .title {
+    margin: 0;
+    position: relative;
+    font-size: 3em;
+
+    font-family: "Decovar Regular24"; 
+    font-variation-settings: 'SKLD' 0;
+   animation: loadin 4s infinite linear;
+    animation-direction: alternate;
+}
+
+@keyframes loadin {
+	0% {
+		font-variation-settings: 'SSTR' 1000;
+	}
+	30% {
+		font-variation-settings: 'SSTR' 0;
+	}
+	70% {
+		font-variation-settings: 'SSTR' 0;
+	}
+	100% {
+		font-variation-settings: 'SSTR' 1000;
+	}
+
+}
+
+.reveal .font-stretch {
+	font-family: "Venn VF";
+	font-stretch: 100%;
+	transition: font-stretch 1s;
+}
+.reveal .font-stretch:hover,
+.reveal .font-stretch:focus {
+	font-stretch: 125%;
+}
+	
+
+.reveal .font-weight {
+	font-family: "Venn VF";
+	font-weight: 100;
+	transition: font-weight 1s;
+}
+.reveal .font-weight:hover,
+.reveal .font-weight:focus {
+	font-weight: 800;
+}
+
+.reveal .font-style {
+	font-family: "Venn VF";
+	font-style: oblique 0deg;
+	transition: font-style 1s;
+}
+.reveal .font-style:hover,
+.reveal .font-style:focus {
+	font-style: oblique 45deg;
+}
+	
+

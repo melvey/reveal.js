@@ -1,46 +1,58 @@
-<!-- .slide: data-background-image="images/17063208_a739b50788_o.jpg" -->
+<!-- .slide: data-background-image="https://cdn.dribbble.com/users/962611/screenshots/3639436/dribble-icon-sml-48.jpg"  data-background-color="black" -->
 ## What is Jekyll
 
 
+<!-- .slide: data-background-image="https://cdn.dribbble.com/users/962611/screenshots/3639436/dribble-icon-sml-48.jpg"  data-background-color="black" -->
 Jekyll is a static site generator. 
 
 
+<!-- .slide: data-background-image="https://cdn.dribbble.com/users/962611/screenshots/3639436/dribble-icon-sml-48.jpg"  data-background-color="black" -->
 It is built to handle blog posts out of the box
 
 
+<!-- .slide: data-background-image="https://cdn.dribbble.com/users/962611/screenshots/3639436/dribble-icon-sml-48.jpg"  data-background-color="black" -->
 Full Markdown support
 
 
+<!-- .slide: data-background-image="https://cdn.dribbble.com/users/962611/screenshots/3639436/dribble-icon-sml-48.jpg"  data-background-color="black" -->
 Uses the [Liquid HTML templating engine](https://github.com/Shopify/liquid/wiki)
 
 
+<!-- .slide: data-background-image="https://cdn.dribbble.com/users/962611/screenshots/3639436/dribble-icon-sml-48.jpg"  data-background-color="black" -->
 It is trivial to get something up and running quickly
 
 
+<!-- .slide: data-background-image="https://cdn.dribbble.com/users/962611/screenshots/3639436/dribble-icon-sml-48.jpg"  data-background-color="black" -->
 It is also very configurable and can be used to create complex sites
 
 
 
+<!-- .slide: data-background-image="https://jekyllrb.com/img/octojekyll.png"  data-background-color="black" -->
 ## Why use Jekyll & Github Pages
 
 
+<!-- .slide: data-background-image="https://jekyllrb.com/img/octojekyll.png"  data-background-color="black" -->
 Because GitHub is made for collaboration.
 
 Anyone can contribute through a pull request.
 
 
+<!-- .slide: data-background-image="https://jekyllrb.com/img/octojekyll.png"  data-background-color="black" -->
 Because it is easy!
 
 Github pages uses Jekyll by default and can automatically build your site when you commit.
 
 
+<!-- .slide: data-background-image="https://jekyllrb.com/img/octojekyll.png"  data-background-color="black" -->
 Before starting this I was tossing up between Github pages and Gitlab. While I love the Gitlab CI configuration, the automatic Jekyll integration makes Github a simpler option.
 
 
 
+<!-- .slide: data-background-image="https://p2.piqsels.com/preview/474/890/442/science-biology-test-tube-liquid.jpg"  data-background-color="black" -->
 ## Getting started
 
 
+<!-- .slide: data-background-image="https://p2.piqsels.com/preview/474/890/442/science-biology-test-tube-liquid.jpg"  data-background-color="black" -->
 ### What you need
 Jekyll is a ruby application and so you will need a [ruby development environment](https://jekyllrb.com/docs/installation/) setup.
 
@@ -52,6 +64,7 @@ gem install jekyll bundler
 If you do not have permissions to write to your gems directory you can grant yourself access to 
 
 
+<!-- .slide: data-background-image="https://p2.piqsels.com/preview/474/890/442/science-biology-test-tube-liquid.jpg"  data-background-color="black" -->
 ### Create your site
 The Jekyll command will create a new site for you.
 ```sh
@@ -60,6 +73,7 @@ jekyll new myblog
 This command creates the myblog directory for you. 
 
 
+<!-- .slide: data-background-image="https://p2.piqsels.com/preview/474/890/442/science-biology-test-tube-liquid.jpg"  data-background-color="black" -->
 ### If bundle install fails
 You may find RVM or rbenv useful to manage your environment but we're not covering that in this talk. So if you get errors installing dependencies then you can install them locally with the following command or grant yourself access to your gem directory
 ```sh
@@ -68,6 +82,7 @@ echo .bundle >> .gitignore
 ```
 
 
+<!-- .slide: data-background-image="https://p2.piqsels.com/preview/474/890/442/science-biology-test-tube-liquid.jpg"  data-background-color="black" -->
 ### Build and run your site
 ```sh
 cd myblog
@@ -75,22 +90,27 @@ bundle exec jekyll serve
 ```
 
 
+<!-- .slide: data-background-image="https://p2.piqsels.com/preview/474/890/442/science-biology-test-tube-liquid.jpg"  data-background-color="black" -->
 ### Open your site
 Browse to http://localhost:4000 and you're good to go!
 
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/72/89/shallow-focus-photo-of-clear-glass-test-tubes.jpg"  data-background-color="black" -->
 ## The jekyll directory structure
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/72/89/shallow-focus-photo-of-clear-glass-test-tubes.jpg"  data-background-color="black" -->
 ### Configuration file
 The `_config.yml` file contains your site configuration. This is where you can define global settings, define your theme and install plugins. You don't need to change anything in there for a basic site.
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/72/89/shallow-focus-photo-of-clear-glass-test-tubes.jpg"  data-background-color="black" -->
 ### Pages
 Any markdown files in your root directory will be rendered as pages. The default theme will show these in the site navigation at the top right. Don't worry about the file extensions, .markdown and .md both work for markdown files.
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/72/89/shallow-focus-photo-of-clear-glass-test-tubes.jpg"  data-background-color="black" -->
 #### Activity
 Open about.markdown and note the section at the top
 ```md
@@ -102,14 +122,17 @@ title: About
 ```
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/72/89/shallow-focus-photo-of-clear-glass-test-tubes.jpg"  data-background-color="black" -->
 This section, called `front matter` contains the configuration for the site. It it specified between lines of `---`. The rest of the page is plain markdown. Note that you don't need to add the page title as the theme will automatically inject the title from the page front matter. Try editing the markdown to include a description of your page.
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/72/89/shallow-focus-photo-of-clear-glass-test-tubes.jpg"  data-background-color="black" -->
 Now let's make a new page. Copy the file about.markdown to contact.md and open it in your editor.
 * Change the title to Contact and the permalink to /contact/. Enter some contact information in the markdown body.
 * Reload your page and navigate to the new contact page
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/72/89/shallow-focus-photo-of-clear-glass-test-tubes.jpg"  data-background-color="black" -->
 ### Blog Posts
 Blog posts are created in the \_posts directory. By default, posts in the future will not appear (unless you set them to in the \_config.yml file).
 * Create the new file `_posts/2020-02-14-first-post.md` and open it in your editor
@@ -122,23 +145,28 @@ categories: announcements
 ```
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/72/89/shallow-focus-photo-of-clear-glass-test-tubes.jpg"  data-background-color="black" -->
 Now type your first blog post after the front matter and reload your page
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/72/89/shallow-focus-photo-of-clear-glass-test-tubes.jpg"  data-background-color="black" -->
 Congratuations you have a blog!
 
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/247/151/eight-assorted-color-tube-bottles.jpg"  data-background-color="black" -->
 ## Theming
 So far we've been using the default theme. There are a whole lot of [different themes](http://jekyllthemes.org/) to choose from. You can install the theme you want using bundler and set the theme in your \_config.yml file.
 
 However if you want something a bit more custom you can override the theme with your own styles and page layouts. The easiest way to do this is to override (or augment) the existing theme by adding your designs to the `_layouts` directory.
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/247/151/eight-assorted-color-tube-bottles.jpg"  data-background-color="black" -->
 ### Copy files from your theme
 You can write these files from scratch but it is easier to get started with an existing theme. The default Jekyll theme `minima` is a nice clean place to start. So I'm going to copy files from the installed minima theme to get started however if you want to start with a different theme you can copy from that.
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/247/151/eight-assorted-color-tube-bottles.jpg"  data-background-color="black" -->
 First I'm going to get the path to my theme and have a look inside
 ```bash
 $> bundler info minima
@@ -157,10 +185,12 @@ $> cp -r vendor/bundle/ruby/2.5.0/gems/minima-2.5.1/_* .
 ```
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/247/151/eight-assorted-color-tube-bottles.jpg"  data-background-color="black" -->
 ### Edit your theme
 Open `_layouts/default.html` to get the default theme that is currently loaded on each page. Jekyll uses a language called liquid to create page templates. As you can see, it looks just like HTML exccept for some special tags.
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/247/151/eight-assorted-color-tube-bottles.jpg"  data-background-color="black" -->
 #### Objects
 ```
 {{ site.title }}
@@ -168,6 +198,7 @@ Open `_layouts/default.html` to get the default theme that is currently loaded o
 Two curly braces tells liquid to output the content into the page. This examples writes the site title. 
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/247/151/eight-assorted-color-tube-bottles.jpg"  data-background-color="black" -->
 #### Tags
 Content in `{{"{%"}}` and `{{"%}"}}` tags are used for logic.
 ```
@@ -178,6 +209,7 @@ Content in `{{"{%"}}` and `{{"%}"}}` tags are used for logic.
 This example will show the author only if the author is set.
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/247/151/eight-assorted-color-tube-bottles.jpg"  data-background-color="black" -->
 #### Includes
 We can load smaller pieces of content using includes. Our includes are liquid HTML files in the `_includes` directory. These can be in either your site or in your theme directory.
 ```
@@ -186,6 +218,7 @@ We can load smaller pieces of content using includes. Our includes are liquid HT
 The above line imports the content from `_includes/footer.html`.
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/247/151/eight-assorted-color-tube-bottles.jpg"  data-background-color="black" -->
 #### Filters
 Data can be run through a fitler before it is output. We pass data to a filter by using a `|` symbol.
 ```
@@ -194,6 +227,7 @@ Data can be run through a fitler before it is output. We pass data to a filter b
 The above line uses the [escape](https://shopify.github.io/liquid/filters/escape/) filter which will replace characters with HTML escape sequences.
 
 
+<!-- .slide: data-background-image="https://p0.pikrepo.com/preview/247/151/eight-assorted-color-tube-bottles.jpg"  data-background-color="black" -->
 ### Remove the footer
 We've already created a page of contact information so we don't need it in the footer anymore. Let's take it out. Remove the following line from `_layouts/default.html`
 ```

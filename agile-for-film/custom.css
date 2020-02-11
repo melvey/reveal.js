@@ -1,0 +1,86 @@
+
+.reveal {
+	text-stroke: 1px black;
+	-webkit-text-stroke: 1px black;
+}
+
+.reveal h1 {
+	font-size: 2em;
+}
+
+.reveal h2 {
+	font-size: 1.3em;
+}
+
+.reveal section img {
+	border: none;
+	background: none;
+}
+
+.reveal a {
+	font-size: 0.8em;
+}
+
+.reveal .slide-background:not(:first-child) {
+	filter: brightness(0.5) contrast(0.8);
+}
+
+.fade-bg .slide-background {
+	filter: brightness(0.5) contrast(0.9);
+}
+
+.fade-bg-strong .slide-background {
+	filter: brightness(0.3) contrast(0.9);
+}
+
+.reveal pre code {
+	font-size: 1.2em;
+
+}
+
+.reveal .attribution {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 0.5em;
+}
+
+.ct-labels span.ct-label {
+	color: white;
+	font-size: 0.6em;
+}
+
+.ct-bar {
+	stroke-width: 20px;
+}
+
+.chart-container {
+	position: relative;
+} 
+
+.chart-container > *{
+  position: absolute; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+}
+
+.chart-small {
+	width: 300px;
+	height: 300px;
+}
+
+.chart-speed {
+	height: 80vh;
+	width: 100%
+}
+
+#speed-chart-avg .ct-label.ct-vertical {
+	color: #d70206;
+}
+#speed-chart-low .ct-label.ct-vertical {
+	color: #f05b4f;
+}

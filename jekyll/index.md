@@ -237,10 +237,12 @@ Now reload your page and the footer is gone!
 
 
 
+<!-- .slide: data-background-image="https://p1.pxfuel.com/preview/86/583/812/code-computer-css-it.jpg"  data-background-color="black" -->
 ### Get your style on
 You can edit the stylesheets by modifying the sass files in `_sass`. So with that in mind, lets change our blog list to a card list similar to [many example blog designs](https://www.google.com/search?tbm=isch&q=blog+design) online.
 
 
+<!-- .slide: data-background-image="https://p1.pxfuel.com/preview/86/583/812/code-computer-css-it.jpg"  data-background-color="black" -->
 First edit the markup by modifying `_layouts/home.html` to reflect the following. Notice how we access the post varibles through the site.posts array.
 ```md
 ---
@@ -291,6 +293,7 @@ layout: default
 ```
 
 
+<!-- .slide: data-background-image="https://p1.pxfuel.com/preview/86/583/812/code-computer-css-it.jpg"  data-background-color="black" -->
 Now lets style it. To keep things clean we will create the new file `_sass/_posts.scss` and enter the following
 ```sass
 .post {
@@ -359,6 +362,7 @@ Now lets style it. To keep things clean we will create the new file `_sass/_post
 ```
 
 
+<!-- .slide: data-background-image="https://p1.pxfuel.com/preview/86/583/812/code-computer-css-it.jpg"  data-background-color="black" -->
 Finally include your styles in the existing minima stylesheet by adding your new file to the imports in `_sass/minima.scss` as below
 ```sass
 // Import partials.
@@ -371,9 +375,11 @@ Finally include your styles in the existing minima stylesheet by adding your new
 ```
 
 
+<!-- .slide: data-background-image="https://p1.pxfuel.com/preview/86/583/812/code-computer-css-it.jpg"  data-background-color="black" -->
 Now reload your page and you have a rather common card style (including the poor colour contrast)
 
 
+<!-- .slide: data-background-image="https://p1.pxfuel.com/preview/86/583/812/code-computer-css-it.jpg"  data-background-color="black" -->
 Because we use the `post.image` property, you can now add an image to your posts by adding the image attribute to your posts front matter
 ```
 image: https://upload.wikimedia.org/wikipedia/commons/4/42/Jekyll_%28software%29_Logo.png

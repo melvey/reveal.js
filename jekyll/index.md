@@ -200,7 +200,7 @@ Two curly braces tells liquid to output the content into the page. This examples
 
 <!-- .slide: data-background-image="https://p0.pikrepo.com/preview/247/151/eight-assorted-color-tube-bottles.jpg"  data-background-color="black" -->
 #### Tags
-Content in `{{"{%"}}` and `{{"%}"}}` tags are used for logic.
+Content in `{%` and `%}` tags are used for logic.
 ```
 {% if site.author %}
 	{{ site.author }}

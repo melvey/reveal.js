@@ -10,15 +10,13 @@
 <!-- .slide: data-background-image=""  data-background-color="black" -->
 Arduino is cheap
 
-Notes:
-* Lots of cheap knock-offs
 * Nano costs just over $15 from core
+* Lots of cheap knock-offs
 
 
 <!-- .slide: data-background-image=""  data-background-color="black" -->
 Arduino is easy (at first)
 
-Notes:
 * Simple IDE
 * Uses common languages (C++)
 * Lots of helper functions in base libraru
@@ -29,7 +27,6 @@ Notes:
 <!-- .slide: data-background-image=""  data-background-color="black" -->
 Arduino is easy to tinker with
 
-Notes:
 * Lots of great resources on the chip
 * Really easy to try an idea on a breadboard or project board
 
@@ -40,9 +37,8 @@ Notes:
 
 
 <!-- .slide: data-background-image=""  data-background-color="black" -->
-I to slow overflowing pots while brewing
+I often overflowing pots while brewing
 
-Notes:
 Nothing on the market
 
 
@@ -94,7 +90,6 @@ Notes:
 <!-- .slide: data-background-image=""  data-background-color="black" -->
 Limited base library
 
-Notes:
 * Great shortcuts in base library but they come at a cost
 * Much larger build files
 * Less efficient
@@ -105,10 +100,8 @@ Notes:
 <!-- .slide: data-background-image=""  data-background-color="black" -->
 ## Writing proper C++ in the Arduino IDE
 * Getting away from .ino files
-
-Notes:
-* The IDE does support .h and .cpp files
-* Permits proper imports
+	* The IDE does support .h and .cpp files
+	* Permits proper imports
 
 
 
